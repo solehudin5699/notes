@@ -1,0 +1,138 @@
+site_name: MyNotes
+site_author: Solehudin
+site_description: Collection of notes or tutorial
+dev_addr: "0.0.0.0:8000"
+
+# Copyright
+copyright: Copyright &copy; 2024 Solehudin
+
+# Repo
+repo_url: https://github.com/solehudin5699/mynotes
+# repo_name: MyNotes
+
+# Page tree
+nav:
+  - Home: index.md
+  - Software Dev:
+      - software-dev/index.md
+      - Frontend: software-dev/frontend.md
+
+theme:
+  name: material
+
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+
+      # Palette toggle for dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: black
+      accent: indigo
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  features:
+    - content.tooltips
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    # - content.action.view
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.instant
+    # - navigation.instant.prefetch
+    - navigation.instant.progress
+    # - navigation.instant.preview
+    - navigation.path
+    - toc.follow
+    # - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - announce.dismiss
+
+  # logo: ./assets/logo.png
+  favicon: assets/images/favicon.png
+  icon:
+    logo: fontawesome/solid/laptop-code
+    repo: fontawesome/brands/git-alt
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+
+# Plugins
+plugins:
+  # - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  # - minify:
+  #     minify_html: true
+  - tags:
+      enabled: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/square-github
+      link: https://github.com/solehudin5699
+      name: Github
+    - icon: fontawesome/brands/square-gitlab
+      link: https://gitlab.com/solehudin5699
+      name: Gitlab
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/solehudin/
+      name: Linkedin
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/solehudin5699
+      name: Docker
+  generator: false
+
+  # consent:
+  #   title: Cookie consent
+  #   description: >-
+  #     We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - abbr
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - tables
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
