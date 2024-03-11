@@ -1,12 +1,15 @@
 services:
-  mkdocs-test:
-    container_name: mkdocs-test
-    # image: javanile/mkdocs:latest
-    build: .
-    expose:
-      - 8000
+  mkdocs-dev:
+    container_name: mkdocs-dev
+    build:
+      dockerfile: Dockerfile.dev
     ports:
       - 8000:8000
     volumes:
       - ./:/app:ro
-    # command: ["mkdocs", "serve"]
+
+  # mkdocs:
+  #   container_name: mkdocs
+  #   build: .
+  #   ports:
+  #     - 8000:80

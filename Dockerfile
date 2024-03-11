@@ -1,15 +1,20 @@
-FROM python:3.13.0a4-alpine3.19
+FROM python:3.13.0a4-alpine3.19 as builder
 
 WORKDIR /app
 
+RUN apk update && apk add build-base
 RUN pip install --upgrade pip
-RUN apt update && apt install gcc -y
 
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
 COPY . .
+RUN mkdocs build
 
-EXPOSE 8000
 
-CMD [ "mkdocs", "serve" ]
+FROM nginx:alpine3.18-slim
+
+WORKDIR /app
+COPY --from=builder /app/site/ /usr/share/nginx/html/
+
+EXPOSE 80

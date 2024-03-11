@@ -7,15 +7,18 @@ dev_addr: "0.0.0.0:8000"
 copyright: Copyright &copy; 2024 Solehudin
 
 # Repo
-repo_url: https://github.com/solehudin5699/mynotes
+# repo_url: https://github.com/solehudin5699/notes
 # repo_name: MyNotes
 
 # Page tree
 nav:
   - Home: index.md
-  - Software Dev:
-      - software-dev/index.md
-      - Frontend: software-dev/frontend.md
+  - Development:
+      - dev/index.md
+      - Frontend Dev: dev/frontend.md
+      - Setup Jenkins with Docker: dev/setup-jenkins.md
+  - Blog:
+      - blog/index.md
 
 theme:
   name: material
@@ -25,6 +28,7 @@ theme:
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
+
     # Palette toggle for light mode
     - scheme: default
       media: "(prefers-color-scheme: light)"
@@ -82,7 +86,11 @@ theme:
 
 # Plugins
 plugins:
-  # - blog
+  - blog:
+      blog_toc: true
+      blog_dir: blog/
+  # - meta:
+  #     enabled: true
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   # - minify:

@@ -1,0 +1,16 @@
+FROM python:3.13.0a4-alpine3.19
+
+WORKDIR /app
+
+RUN apk update && apk add build-base
+
+RUN pip install --upgrade pip
+
+COPY requirements.txt ./
+RUN pip install -r requirements.txt
+
+COPY . .
+
+EXPOSE 8000
+
+CMD [ "mkdocs", "serve" ]
