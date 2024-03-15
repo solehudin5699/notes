@@ -16,7 +16,9 @@ nav:
   - Development:
       - dev/index.md
       - Frontend Dev: dev/frontend.md
-      - Setup Jenkins with Docker: dev/setup-jenkins.md
+      - Jenkins:
+          - Install Jenkins: dev/jenkins/install-jenkins.md
+          - Setup Cloud Agent: dev/jenkins/setup-cloud.md
   - Blog:
       - blog/index.md
 
@@ -144,3 +146,4 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - sane_lists
