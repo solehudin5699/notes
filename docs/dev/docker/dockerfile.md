@@ -109,7 +109,7 @@ EXPOSE 8181/UDP
 
 #### ENV
 
-> Set the environment variable <key> to the value <value>. This value will be in the environment for all subsequent instructions in the build stage and can be replaced inline in many as well. Evv is usually for **coontainer needs**.
+> Set the environment variable <key> to the value <value>. This value will be in the environment for all subsequent instructions in the build stage and can be replaced inline in many as well. Env is usually for **container needs**.
 
 ```dockerfile hl_lines="3" title="ENV"
 FROM nginx:alpine3.18-slim
