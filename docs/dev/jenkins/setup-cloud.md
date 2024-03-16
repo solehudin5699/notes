@@ -62,7 +62,7 @@ We have set up a clouds and a template agent.
 ### Container as cloud agent
 
 Basically, it's similarly with setup docker host as clouds.
-But, to approach it, the container must have docker in it. we run docker in docker.
+But, to approach it, the container must have docker in it, as know as `docker in docker`.
 
 ```bash title="Run docker:dind"
 docker run -d --restart=always \

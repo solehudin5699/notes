@@ -1,6 +1,6 @@
 site_name: MyNotes
 site_author: Solehudin
-site_description: Collection of notes or tutorial
+site_description: Collection of notes, tutorial, or documentation
 dev_addr: "0.0.0.0:8000"
 
 # Copyright
@@ -16,11 +16,15 @@ nav:
   - Development:
       - dev/index.md
       - Frontend Dev: dev/frontend.md
+      - Docker:
+          - Basic: dev/docker/basic.md
+          - Dockerfile: dev/docker/dockerfile.md
       - Jenkins:
           - Install Jenkins: dev/jenkins/install-jenkins.md
           - Setup Cloud Agent: dev/jenkins/setup-cloud.md
   - Blog:
       - blog/index.md
+  - Tools: tools/index.md
 
 theme:
   name: material
