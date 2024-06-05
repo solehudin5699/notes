@@ -19,6 +19,7 @@ nav:
       - Docker:
           - Basic: dev/docker/basic.md
           - Dockerfile: dev/docker/dockerfile.md
+          - Docker Compose: dev/docker/docker-compose.md
       - Jenkins:
           - Install Jenkins: dev/jenkins/install-jenkins.md
           - Setup Cloud Agent: dev/jenkins/setup-cloud.md
@@ -49,7 +50,7 @@ theme:
       media: "(prefers-color-scheme: dark)"
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to system preference
       primary: black
       accent: indigo
 
@@ -151,3 +152,8 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - sane_lists
+  - attr_list
+  - def_list
+  - markdown.extensions.def_list
+  - markdown.extensions.attr_list
+  - markdown.extensions.sane_lists

@@ -1,4 +1,6 @@
-### Overview
+## Overview
+
+---
 
 In previous step, we have installed jenkins as container, a.k.a **jenkins master** or **jenkins controller**.
 For run the job, jenkins master will handoff task to jenkins agent.
@@ -17,9 +19,9 @@ Before next, install plugin Docker at Manage Jenkins > Plugins > Available plugi
 
 <img src="/assets/images/install-docker-plugin.png"/>
 
----
+## Docker daemon (docker host) as clouds
 
-### Docker daemon (docker host) as clouds
+---
 
 Because we run jenkins as container, to setup cloud agent, we must know unix or tcp address of the docker host. But since we are running jenkins as container, the container can't reach docker host unix port.
 
@@ -57,9 +59,9 @@ Add Docker Agent templates, and save it, example:
 
 We have set up a clouds and a template agent.
 
----
+## Container as cloud agent
 
-### Container as cloud agent
+---
 
 Basically, it's similarly with setup docker host as clouds.
 But, to approach it, the container must have docker in it, as know as `docker in docker`.
