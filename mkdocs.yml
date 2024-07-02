@@ -1,7 +1,8 @@
 site_name: MyNotes
 site_author: Solehudin
 site_description: Collection of notes, tutorial, or documentation
-dev_addr: "0.0.0.0:8000"
+dev_addr: '0.0.0.0:8000'
+site_url: 'https://notes.escloud.my.id'
 
 # Copyright
 copyright: Copyright &copy; 2024 Solehudin
@@ -23,6 +24,10 @@ nav:
       - Jenkins:
           - Install Jenkins: dev/jenkins/install-jenkins.md
           - Setup Cloud Agent: dev/jenkins/setup-cloud.md
+      - VPS Setup:
+          - dev/vps-setup/index.md
+          - Reverse Proxy with Nginx: dev/vps-setup/reverse-proxy.md
+          - Install Docker: dev/vps-setup/install-docker.md
   - Blog:
       - blog/index.md
   - Tools: tools/index.md
@@ -31,28 +36,29 @@ theme:
   name: material
 
   palette:
-    - media: "(prefers-color-scheme)"
+    # Palette toggle for dark mode
+    - scheme: slate
+      media: '(prefers-color-scheme: dark)'
       toggle:
-        icon: material/brightness-auto
+        icon: material/brightness-4
         name: Switch to light mode
+      primary: black
+      accent:
+        indigo
 
-    # Palette toggle for light mode
+        # Palette toggle for light mode
     - scheme: default
-      media: "(prefers-color-scheme: light)"
+      media: '(prefers-color-scheme: light)'
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Switch to system preference
       primary: indigo
       accent: indigo
 
-      # Palette toggle for dark mode
-    - scheme: slate
-      media: "(prefers-color-scheme: dark)"
+    - media: '(prefers-color-scheme)'
       toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
-      primary: black
-      accent: indigo
+        icon: material/brightness-auto
+        name: Switch to dark mode
 
   font:
     text: Roboto
