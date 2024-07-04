@@ -34,6 +34,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
 
   palette:
     # Palette toggle for dark mode
@@ -106,8 +107,8 @@ plugins:
   #     enabled: true
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  # - minify:
-  #     minify_html: true
+  - minify:
+      minify_html: true
   - tags:
       enabled: true
   - glightbox:
