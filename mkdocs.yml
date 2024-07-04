@@ -110,8 +110,6 @@ plugins:
   #     minify_html: true
   - tags:
       enabled: true
-  - info:
-      enabled: true
   - glightbox:
       touchNavigation: true
       loop: false
