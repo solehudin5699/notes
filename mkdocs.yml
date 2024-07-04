@@ -110,6 +110,24 @@ plugins:
   #     minify_html: true
   - tags:
       enabled: true
+  - info:
+      enabled: true
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - skip-glightbox
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
 
 extra:
   social:
@@ -163,3 +181,5 @@ markdown_extensions:
   - markdown.extensions.def_list
   - markdown.extensions.attr_list
   - markdown.extensions.sane_lists
+  - md_in_html
+  - pymdownx.emoji
