@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 1. Setup Docker's `apt` repository
 
 ```bash title="Run in terminal"

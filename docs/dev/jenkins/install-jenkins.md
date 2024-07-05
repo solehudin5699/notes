@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Step by step install jenkins with docker
 
 ```bash title="Clone repository"

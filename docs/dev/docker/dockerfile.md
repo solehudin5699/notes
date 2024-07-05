@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ### Overview
 
 Dockerfile is a text file that contains a set of instructions used to build a Docker image.
