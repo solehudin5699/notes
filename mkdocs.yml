@@ -4,6 +4,8 @@ site_description: Collection of notes, tutorial, or documentation
 dev_addr: '0.0.0.0:8000'
 site_url: 'https://notes.escloud.my.id'
 
+# docs_dir: app
+
 # Copyright
 copyright: Copyright &copy; 2024 Solehudin
 
@@ -79,6 +81,7 @@ theme:
     - navigation.indexes
     - navigation.tracking
     - navigation.instant
+    - navigation.expand
     # - navigation.instant.prefetch
     - navigation.instant.progress
     # - navigation.instant.preview
@@ -182,3 +185,8 @@ markdown_extensions:
   - markdown.extensions.sane_lists
   - md_in_html
   - pymdownx.emoji
+
+extra_javascript:
+  - javascripts/extra.js
+extra_css:
+  - stylesheets/extra.css
