@@ -80,7 +80,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.tracking
-    - navigation.instant
+    # - navigation.instant // IF enable, mkdocs behaves like a Single Page Application
     - navigation.expand
     # - navigation.instant.prefetch
     - navigation.instant.progress
