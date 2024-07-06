@@ -10,6 +10,8 @@ comments: true
 
 Github is one of the most popular git repository hosting services. But did you know that you can also use Github as a free CDN? In this article, i will show you how to use Github as a free CDN.
 
+<!-- more -->
+
 ## What is CDN?
 
 CDN stands for Content Delivery Network. It is a network of servers that are distributed geographically to deliver web content more efficiently to users. CDN servers are located in different parts of the world, so when a user requests a web page, the content is delivered from the server that is closest to them. This reduces latency and improves the performance of the website.
