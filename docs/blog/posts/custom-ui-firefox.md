@@ -51,7 +51,7 @@ To customize the Firefox UI using a `userChrome.css` file from the open source p
 10. **Restart** Firefox
 11. That's all, after restarting you should be able to see the changes in the Firefox UI.
 
-New UI Firefox with `AutoColor-Minimal-Proton` theme:
+## Result
 
 <video width="100%"  controls>
     <source src="https://firebasestorage.googleapis.com/v0/b/test-40865.appspot.com/o/custom-ui-firefox.mp4?alt=media&token=12a24cbe-b24f-4a4a-b2a2-fb14bbf80a98" type="video/mp4">
