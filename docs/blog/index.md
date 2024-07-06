@@ -1,1 +1,3 @@
-Blog not found
+---
+title: Blog
+---

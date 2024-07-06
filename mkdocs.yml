@@ -1,6 +1,6 @@
 site_name: MyNotes
 site_author: Solehudin
-site_description: Collection of notes, tutorial, or documentation
+site_description: Notes, tutorial, or documentation
 dev_addr: '0.0.0.0:8000'
 site_url: 'https://notes.escloud.my.id'
 
