@@ -21,5 +21,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: sudo apt-get install pngquant
+      - run: pip install "mkdocs-material[imaging]"
       - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
