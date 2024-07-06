@@ -6,10 +6,16 @@ services:
     ports:
       - 8000:8000
     volumes:
-      - ./:/app:ro
+      - ./:/docs:rw
+    platform: linux/amd64
 
   # mkdocs:
   #   container_name: mkdocs
   #   build: .
   #   ports:
-  #     - 8000:80
+  #     - 8001:80
+  #   volumes:
+  #     - ./:/docs:rw
+  #   tty: true
+  #   stdin_open: true
+  #   platform: linux/amd64

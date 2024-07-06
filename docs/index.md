@@ -64,6 +64,9 @@ template: homepage.html
   .md-footer{
     z-index: 1;
   }
+  .md-source-file{
+    display: none;
+  }
 </style>
 
 <div style="display: flex;align-items: center;gap: 0.75rem;flex-direction:column;justify-content: center;" markdown>
@@ -71,7 +74,7 @@ template: homepage.html
 
 !!! quote "Hello World!"
 
-    I'm Solehudin, software development enthusiast especially about frontend development. This web is for notes or documentation usage about software development, tools, or other notes.
+    Hi, I'm ==Solehudin==, software development enthusiast especially about frontend development. This web is for notes or documentation usage about software development, tools, or other notes.
 
 </div>
 
