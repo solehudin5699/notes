@@ -33,7 +33,9 @@ nav:
           - Install Docker: dev/vps-setup/install-docker.md
   - Blog:
       - blog/index.md
-  - Tools: tools/index.md
+  - Tools:
+      - tools/index.md
+      - Oh My Zsh: tools/oh-my-zsh.md
 
 theme:
   name: material

@@ -2,3 +2,4 @@ site/
 .vscode
 .trash
 .cache
+.DS_Store

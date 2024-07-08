@@ -2,6 +2,8 @@
 comments: true
 ---
 
+## Docker Installation
+
 1. Setup Docker's `apt` repository
 
 ```bash title="Run in terminal"
@@ -31,3 +33,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```bash title="Run in terminal"
 sudo docker run hello-world
 ```
+
+## References
+
+- [Docker Installation](https://docs.docker.com/engine/install/ubuntu/)

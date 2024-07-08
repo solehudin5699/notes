@@ -4,13 +4,15 @@ comments: true
 
 # VPS Setup
 
+Setup VPS on Ubuntu for my personal use. I use VPS for hosting my personal website, blog, testing, and learning purposes.
+
 !!! info "Overview"
 
-      A virtual private server(VPS) is a machine that hosts all the software and data required to run an application or website. It is called virtual because it only consumes a portion of the server's underlying physical resources which are managed by a third-party provider. However, you get access to your dedicated resources on that hardware. [aws.amazon.com](https://aws.amazon.com/what-is/vps/?nc1=h_ls).
+      A virtual private server(VPS) is a machine that hosts all the software and data required to run an application or website. It is called virtual because it only consumes a portion of the server's underlying physical resources which are managed by a third-party provider. However, you get access to your dedicated resources on that hardware. [Source: [aws.amazon.com](https://aws.amazon.com/what-is/vps/?nc1=h_ls)].
 
 !!! tip "Disclaimer"
 
-      This setup is for setting up a VPS on Ubuntu.
+      I use Ubuntu 22.04 LTS for this setup. You can use another version of Ubuntu or another Linux distribution. The steps may vary slightly depending on the distribution you use.
 
 ## Update Repositories
 
@@ -70,7 +72,7 @@ sudo service nginx restart
 
 ## Pointing Domain to VPS + Cloudflare
 
-1. Register a domain, example escloud.my.id
+1. Make sure we have a domain, for example, escloud.my.id. If you don't have a domain, you can buy it from a domain provider.
 2. Login to Cloudflare, add site escloud.my.id
    <img src="../../assets/images/setup-domain-in-vps.png" />
 3. Copy Cloudflare nameserver
