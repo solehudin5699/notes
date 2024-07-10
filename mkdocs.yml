@@ -36,6 +36,7 @@ nav:
   - Tools:
       - tools/index.md
       - Oh My Zsh: tools/oh-my-zsh.md
+      - VSCode: tools/vscode.md
 
 theme:
   name: material
@@ -155,7 +156,6 @@ plugins:
   - git-committers:
       repository: solehudin5699/notes
       branch: master
-      token: !ENV ['GH_TOKEN']
 
 extra:
   social:
