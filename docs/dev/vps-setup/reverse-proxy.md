@@ -45,4 +45,4 @@ sudo service nginx restart # restart nginx
 
 ## Pointing Domain to VPS + Cloudflare
 
-Do the same as this steps [here](/dev/vps-setup/#pointing-domain-to-vps-cloudflare).
+Do the same as this steps [here](index.md#pointing-domain-to-vps-cloudflare).
