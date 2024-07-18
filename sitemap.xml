@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://notes.solehudin.my.id/tools/brave-browser/</loc>
+         <lastmod>2024-07-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://notes.solehudin.my.id/tools/oh-my-zsh/</loc>
          <lastmod>2024-07-18</lastmod>
          <changefreq>daily</changefreq>
