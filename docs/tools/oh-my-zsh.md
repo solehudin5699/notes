@@ -1,4 +1,4 @@
-## **Oh My Zsh** configuration for my daily driver.
+![Oh My Zsh](https://ohmyz.sh/img/ohmyzsh-logo-ansi.png){width=100%}
 
 I use **Oh My Zsh** as my shell and **Powerlevel10k** as my theme in MacOS and Linux Mint.
 
