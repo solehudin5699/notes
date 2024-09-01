@@ -35,6 +35,8 @@ I use **Oh My Zsh** as my shell and **Powerlevel10k** as my theme in MacOS and L
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
     ```
 
+    Then set ZSH_THEME="powerlevel10k/powerlevel10k" in `~/.zshrc` . You need run `source ~.zshrc`, after that, it will run a configuration wizard.
+
 4.  Install MesloLGS NF font
 
     If you are using iTerm2 or Termux, p10k configure can install the recommended font for you. Simply answer Yes when asked whether to install Meslo Nerd Font.
