@@ -12,7 +12,7 @@ Download the latest version of Brave Browser from the official website [here](ht
 Or on Linux, you can install it via terminal use flatpak:
 
 ```bash title="Run in terminal"
-sudo apt flatpak install brave
+flatpak install flathub com.brave.Browser
 ```
 
 Or other Linux distributions, you can follow the instructions [here](https://brave.com/linux/#release-channel-installation).
