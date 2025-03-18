@@ -2,7 +2,7 @@ site_name: Solehudin's Notes
 site_author: Solehudin
 site_description: Notes, tutorial, or documentation
 dev_addr: '0.0.0.0:8000'
-site_url: 'https://notes.solehudin.my.id'
+site_url: 'https://notes.solehudin.id'
 
 # docs_dir: app
 
