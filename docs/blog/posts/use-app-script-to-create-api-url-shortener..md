@@ -27,7 +27,7 @@ To create an API URL Shortener using App Script, follow these steps:
 
     b. Change name sheet, e.g "URLs"
 
-    c. Add header , fill cell A1 with "Short Code", cell B1 with "Short URL" and cell C1 with "Created At"
+    c. Add header , fill cell A1 with "Short Code", cell B1 with "Original URL" and cell C1 with "Created At"
 
     d. Save the spreadsheet
 
