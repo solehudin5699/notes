@@ -47,7 +47,8 @@ Choose the domain you want to configure for email routing.
 Cloudflare will automatically add the required MX Records and TXT Records.
 
 !!! warning
-Make sure DNS Records are set to **DNS Only** (gray cloud), not **Proxied** (orange cloud).
+
+    Make sure DNS Records are set to **DNS Only** (gray cloud), not **Proxied** (orange cloud).
 
 ### Step 6: Test the Setup
 
